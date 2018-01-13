@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fragment_bg"
+    android:orientation="vertical"
+    tools:context="com.example.arsalankhan.notificationapp.RegistrationActivity">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="2dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName"
+        android:padding="13dp"
+        android:hint="Enter your Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:background="@drawable/edittext_bg"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextRegEmail"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your Email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:padding="13dp"
+        android:background="@drawable/edittext_bg"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextRegPassword"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+        android:padding="13dp"
+        android:imeOptions="actionDone"
+        android:background="@drawable/edittext_bg"/>
+
+    <Button
+        android:id="@+id/btnRegisterNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="Registration"
+        android:text="Register" />
+</LinearLayout>

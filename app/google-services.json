@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "26143751062",
+    "firebase_url": "https://notification-app-feb61.firebaseio.com",
+    "project_id": "notification-app-feb61",
+    "storage_bucket": "notification-app-feb61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26143751062:android:0b2386729ff449f0",
+        "android_client_info": {
+          "package_name": "com.example.arsalankhan.notificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26143751062-fhit0ln0ikrfobg72n9jif5e357n37a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arsalankhan.notificationapp",
+            "certificate_hash": "8fce3dd621d28518e17396a2dae390d2e8614f19"
+          }
+        },
+        {
+          "client_id": "26143751062-vk7ggrf18pi0kde5h7i1v9q913b2r9sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0ffJDWVMokzvW4UosIBX2pB_UymIWQpE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26143751062-vk7ggrf18pi0kde5h7i1v9q913b2r9sn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
